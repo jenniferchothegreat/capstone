@@ -1,0 +1,20 @@
+export default {
+    // Add TailwindCSS to the build
+    buildModules: [
+      '@nuxtjs/tailwindcss',
+    ],
+  }
+
+  module.exports = {
+    purge: [],
+    darkMode: false,
+    theme: {
+      extend: {},
+    },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
+  }
+  
+  
